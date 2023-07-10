@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    background-color: pink;
+    height: 850px;
+    width: 1920px;
+}
+.disc{
+    padding: 170px 40px 130px 170px;
+
+
+}
+
+.title {
+    color: black;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800px;
+    margin: 0px;
+
+}
+
+.para {
+    color:dimgrey;
+    font-family: Lato;
+    font-size: 18px;
+
+}
+
+.pic {
+    width: 630px;
+    height: 800px;
+    padding: 50px 240px 0px;
+
+}
+.p-btn{
+    color: #fff;
+    font-size: 15px;
+    font-family:  'Times New Roman', Times, serif;
+    background-color: lightcoral;
+    border-radius: 5px;
+    padding: 20px 45px ;
+    border: 0px;
+}
