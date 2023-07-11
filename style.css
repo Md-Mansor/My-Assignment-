@@ -137,10 +137,21 @@ header {
 
 .offer {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     background-color: rgba(255, 192, 203, 0.596);
     text-align: center;
     align-items: center;
+}
+
+.s-btn {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:hotpink;
+    border-radius: 5px;
+    padding: 20px 45px;
+    border: 0px;
+    cursor: pointer;
 }
 
 .title3 {
@@ -159,28 +170,54 @@ header {
 
 .rectangle {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    /* margin:5px; */
-
 }
-.recpic{
+
+.recpic {
     margin: 10px;
 }
+
 .beck {
-    color: #272727;
+    background-image: url(Rectangle\ 9.png);
+    background-repeat: no-repeat;
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 40px;
-    font-weight: 800;
+    background-position: center;
+    padding: 80px 0px;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.get {
+    color: #111010;
+    font-size: 50px;
+    letter-spacing: .5rem;
+}
+
+.coupon {
+    color: #857e7e;
+    font-size: 20px;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+}
+
+.subbtn {
+    border: solid black 2px;
+    cursor: pointer;
+    width: 120px;
+    height: 35px;
 }
 
 footer {
     background-color: #111010;
+    height: 200px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
 }
 
 .foot {
-    text-align: center;
     color: #fff;
-    padding: 50px;
 }
