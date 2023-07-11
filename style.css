@@ -153,21 +153,41 @@ header {
     color: #000;
     font-size: 40px;
 }
-
 .para3 {
     font-size: 20px;
     color: #857e7e;
-
 }
 
 .main3 {
     text-align: center;
 }
-.bgpic {
-    
-    padding: 50px 250px 0px 250px;
+.rectangle{
     display: flex;
     width: 342px;
     height: 396px;
+}
+.rec1{
+    padding-left: 240px;
+}
+.rec2{
+    padding-left: 25px;
+}
+.rec3{
+    padding-left: 25px;
+}
+.rec4{
+    padding-left: 25px;
+    padding-right: 240px;
+}
+footer{
+    background-color: #111010;;
+    width: 1923px;
+    height: 300px;
 
+}
+
+.foot{
+    text-align: center;
+    color: #fff;
+    padding: 50px;
 }
