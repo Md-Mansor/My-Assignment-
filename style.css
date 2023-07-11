@@ -65,7 +65,7 @@ header {
 .box {
     display: flex;
     justify-content: space-around;
-    padding-left: 200px;
+    margin-left: 200px;
     padding-right: 200px;
 }
 
@@ -73,16 +73,16 @@ header {
 
     width: 280px;
     height: 390px;
-    padding-top: 110px;
-    padding-left: 45px;
+    margin-top: 110px;
+    margin-left: 45px;
 
 }
 
 .pic2 {
     width: 350px;
     height: 350px;
-    padding-top: 90px;
-    padding-left: 30px;
+    margin-top: 90px;
+    margin-left: 30px;
 
 }
 
@@ -90,8 +90,8 @@ header {
 
     height: 470px;
     width: 314px;
-    padding-top: 29px;
-    padding-left: 35px;
+    margin-top: 29px;
+    margin-left: 35px;
 
 }
 
@@ -118,21 +118,21 @@ header {
 }
 
 .list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
+    /* list-style: none; */
+    /* display: flex; */
+    /* justify-content: center; */
 }
 
 .f2 {
-    padding: 0px 450px 0px 450px;
+    /* padding: 0px 450px 0px 450px; */
 }
 
 .f1 {
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 
 .f3 {
-    padding-right: 100px;
+    /* padding-right: 100px; */
 }
 
 .offer {
@@ -147,7 +147,7 @@ header {
     color: #fff;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
-    background-color:hotpink;
+    background-color: hotpink;
     border-radius: 5px;
     padding: 20px 45px;
     border: 0px;
@@ -205,10 +205,14 @@ input {
 }
 
 .subbtn {
-    border: solid black 2px;
+    color: #000;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:antiquewhite;
+    border-radius: 5px;
+    padding: 20px 45px;
+    border: 0px;
     cursor: pointer;
-    width: 120px;
-    height: 35px;
 }
 
 footer {
@@ -217,7 +221,9 @@ footer {
     margin: 20px 0px 0px 0px;
     text-align: center;
 }
-
+.text{
+    color:rgb(202, 43, 43);
+}
 .foot {
     color: #fff;
 }
