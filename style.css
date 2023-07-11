@@ -2,11 +2,10 @@ body {
     margin: 0px;
 }
 
-header {
+.bcon{
     display: flex;
     background-color: pink;
-    width: auto;
-    height: 850px;
+    justify-content: space-around;
 }
 
 .disc {
@@ -70,70 +69,37 @@ header {
 }
 
 .pic1 {
-
-    width: 280px;
-    height: 390px;
-    margin-top: 110px;
-    margin-left: 45px;
+    background-color: lightpink;
+    border-radius: 200px 200px 0px 0px;
+    padding: 40px;
+    width: 320px;
+    height: 400px;
+    margin: 0px 10px;
 
 }
-
 .pic2 {
-    width: 350px;
-    height: 350px;
-    margin-top: 90px;
-    margin-left: 30px;
+    background-color: lightblue;
+    border-radius: 200px 200px 0px 0px;
+    padding: 40px;
+    width: 320px;
+    height: 400px;
+    margin: 0px 10px;
 
 }
 
 .pic3 {
-
-    height: 470px;
-    width: 314px;
-    margin-top: 29px;
-    margin-left: 35px;
-
+    background-color: lightcoral;
+    border-radius: 200px 200px 0px 0px;
+    padding: 40px;
+    width: 320px;
+    height: 400px;
+    margin: 0px 10px;
+}
+.pink{
+    text-align: center;
+    text-decoration: underline;
 }
 
-.box1 {
-    background-color: rgba(218, 107, 107, 0.404);
-    border-radius: 220px 250px 0px 0px;
-    width: 400px;
-    height: 500px;
-}
-
-.box2 {
-    background-color: rgba(133, 190, 209, 0.24);
-    border-radius: 220px 250px 0px 0px;
-    width: 400px;
-    height: 500px;
-
-}
-
-.box3 {
-    background-color: rgba(130, 221, 130, 0.521);
-    border-radius: 220px 250px 0px 0px;
-    width: 400px;
-    height: 500px;
-}
-
-.list {
-    /* list-style: none; */
-    /* display: flex; */
-    /* justify-content: center; */
-}
-
-.f2 {
-    /* padding: 0px 450px 0px 450px; */
-}
-
-.f1 {
-    /* padding-left: 20px; */
-}
-
-.f3 {
-    /* padding-right: 100px; */
-}
 
 .offer {
     display: flex;
