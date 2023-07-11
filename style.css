@@ -45,3 +45,55 @@ header {
     padding: 20px 45px ;
     border: 0px;
 }
+.main1{
+    text-align: center;
+    padding-top: 20px;
+}
+.box{
+    display:flex;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.pic1{
+    
+    width: 280px;
+    height: 390px;
+    padding-top: 110px;
+    padding-left: 45px;
+
+}
+.pic2{
+    width:350px;
+    height: 350px;
+    padding-top: 90px;
+    padding-left: 30px;
+
+}
+.pic3{
+    
+    height: 470px;
+    width: 314px;
+    padding-top: 29px;
+    padding-left: 35px;
+
+}
+.box1{
+    background-color: lightcoral;
+    border-radius: 220px 250px 0px 0px;
+    width: 400px;
+    height: 500px;
+}
+.box2{
+    background-color: lightblue;
+    border-radius: 220px 250px 0px 0px;
+    width: 400px;
+    height: 500px;
+
+}
+.box3{
+    background-color: lightgreen;
+    border-radius: 220px 250px 0px 0px;
+    width: 400px;
+    height: 500px;
+}
