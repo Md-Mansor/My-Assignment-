@@ -5,10 +5,11 @@ body {
 header {
     display: flex;
     background-color: pink;
+    width: auto;
     height: 850px;
-    width: 1920px;
 }
-.disc{
+
+.disc {
     padding: 170px 40px 130px 170px;
 
 
@@ -24,7 +25,7 @@ header {
 }
 
 .para {
-    color:dimgrey;
+    color: dimgrey;
     font-family: Lato;
     font-size: 18px;
 
@@ -36,64 +37,114 @@ header {
     padding: 50px 240px 0px;
 
 }
-.p-btn{
+
+.p-btn {
     color: #fff;
     font-size: 15px;
-    font-family:  'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: lightcoral;
     border-radius: 5px;
-    padding: 20px 45px ;
+    padding: 20px 45px;
     border: 0px;
 }
-.main1{
+
+.main1 {
     text-align: center;
     padding-top: 20px;
 }
-.box{
-    display:flex;
+
+.fh {
+    font-size: 60px;
+}
+
+.p {
+    font-size: 18px;
+}
+
+.box {
+    display: flex;
     justify-content: space-around;
     padding-left: 200px;
     padding-right: 200px;
 }
-.pic1{
-    
+
+.pic1 {
+
     width: 280px;
     height: 390px;
     padding-top: 110px;
     padding-left: 45px;
 
 }
-.pic2{
-    width:350px;
+
+.pic2 {
+    width: 350px;
     height: 350px;
     padding-top: 90px;
     padding-left: 30px;
 
 }
-.pic3{
-    
+
+.pic3 {
+
     height: 470px;
     width: 314px;
     padding-top: 29px;
     padding-left: 35px;
 
 }
-.box1{
-    background-color: lightcoral;
+
+.box1 {
+    background-color: rgba(218, 107, 107, 0.404);
     border-radius: 220px 250px 0px 0px;
     width: 400px;
     height: 500px;
 }
-.box2{
-    background-color: lightblue;
+
+.box2 {
+    background-color: rgba(133, 190, 209, 0.24);
     border-radius: 220px 250px 0px 0px;
     width: 400px;
     height: 500px;
 
 }
-.box3{
-    background-color: lightgreen;
+
+.box3 {
+    background-color: rgba(130, 221, 130, 0.521);
     border-radius: 220px 250px 0px 0px;
     width: 400px;
     height: 500px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.f2 {
+    padding: 0px 450px 0px 450px;
+}
+
+.f1 {
+    padding-left: 20px;
+}
+
+.f3 {
+    padding-right: 100px;
+}
+
+.offer {
+    display: flex;
+    width: 1920px;
+    height: 400px;
+    background-color: rgba(255, 192, 203, 0.596);
+    text-align: center;
+    padding: 200px;
+}
+
+.pic8 {
+    width: 320px;
+    height: 420px;
+    margin: 50px 400px 0px 800px;
 }
